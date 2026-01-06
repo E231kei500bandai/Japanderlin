@@ -1471,3 +1471,33 @@
 /obj/structure/fluff/steamvent/Initialize()
 	. = ..()
 	MakeParticleEmitter(/particles/smoke/cig/big)
+
+/obj/structure/fluff/rice_grow
+	name = "rice"
+	desc = "Welcome to the rice fields, motherfucker!"
+	icon = 'icons/roguetown/misc/crops.dmi'
+	icon_state = "rice0"
+	density = FALSE
+	anchored = TRUE
+	max_integrity = 50
+	layer = 2.1
+
+/obj/structure/fluff/rice_growing
+	name = "rice"
+	desc = "Welcome to the rice fields, motherfucker!"
+	icon = 'icons/roguetown/misc/crops.dmi'
+	icon_state = "rice1"
+	density = FALSE
+	anchored = TRUE
+	max_integrity = 50
+	layer = 2.1
+
+/obj/structure/fluff/rice_grown
+	name = "rice"
+	desc = "Welcome to the rice fields, motherfucker!"
+	icon = 'icons/roguetown/misc/crops.dmi'
+	icon_state = "rice2"
+	density = FALSE
+	anchored = TRUE
+	max_integrity = 50
+	layer = 2.1
